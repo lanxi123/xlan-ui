@@ -1,9 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
-import { Button } from 'antd';
-
 import React, { Component } from 'react'
-
+import Login from './viwes/login/login'
 export default class App extends Component {
   constructor() {
     super()
@@ -13,8 +10,8 @@ export default class App extends Component {
   }
   render() {
     return (
-      <div>
-          <Button type="primary" onClick={this.aca}>Primary Button</Button>
+      <div id="add">
+        <Login></Login>
       </div>
     )
   }
